@@ -1,0 +1,11 @@
+applications:
+  - name: spring-boot-security-saml-sample
+    memory: 1024M
+    instances: 1
+    path: target/spring-boot-security-saml-sample-1.8.0.RELEASE.jar
+#    routes:
+#      - route: trusco-vnd-webapp.cfapps.jp10.hana.ondemand.com/vnd-api
+    services:
+      - PostgreSQL-v9.6-xxsmall
+#    env:
+#      SPRING_PROFILES_ACTIVE: test
